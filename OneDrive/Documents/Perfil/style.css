@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #708090;
+    margin: 0;
+    padding: 30px;
+    position: relative;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    position: relative;
+    z-index: 1;
+}
+
+.submarine-decorations {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.submarine-symbol {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.mini-submarine {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    opacity: 0.85;
+}
+
+.submarine-one { top: 3%; left: 8%; transform: rotate(-12deg); }
+.submarine-two { top: 7%; right: 7%; transform: rotate(14deg) scale(0.9); }
+.submarine-three { top: 12%; left: 3%; transform: rotate(8deg) scale(1.05); }
+.submarine-four { top: 16%; right: 4%; transform: rotate(-9deg) scale(1.1); }
+.submarine-five { top: 21%; left: 10%; transform: rotate(17deg) scale(0.85); }
+.submarine-six { top: 25%; right: 11%; transform: rotate(-15deg); }
+.submarine-seven { top: 30%; left: 4%; transform: rotate(-5deg) scale(1.1); }
+.submarine-eight { top: 34%; right: 3%; transform: rotate(12deg) scale(0.9); }
+.submarine-nine { top: 39%; left: 12%; transform: rotate(-14deg); }
+.submarine-ten { top: 43%; right: 9%; transform: rotate(6deg) scale(1.1); }
+.submarine-eleven { top: 48%; left: 5%; transform: rotate(13deg) scale(0.9); }
+.submarine-twelve { top: 52%; right: 4%; transform: rotate(-8deg); }
+.submarine-thirteen { top: 57%; left: 8%; transform: rotate(9deg) scale(0.95); }
+.submarine-fourteen { top: 61%; right: 7%; transform: rotate(-16deg) scale(1.15); }
+.submarine-fifteen { top: 66%; left: 3%; transform: rotate(5deg) scale(0.85); }
+.submarine-sixteen { top: 70%; right: 4%; transform: rotate(13deg); }
+.submarine-seventeen { top: 75%; left: 10%; transform: rotate(-7deg) scale(1.1); }
+.submarine-eighteen { top: 79%; right: 11%; transform: rotate(18deg) scale(0.9); }
+.submarine-nineteen { top: 84%; left: 4%; transform: rotate(-12deg); }
+.submarine-twenty { top: 88%; right: 3%; transform: rotate(7deg) scale(1.15); }
+.submarine-twenty-one { top: 92%; left: 12%; transform: rotate(-18deg) scale(0.9); }
+.submarine-twenty-two { top: 95%; right: 9%; transform: rotate(11deg); }
+.submarine-twenty-three { top: 98%; left: 5%; transform: rotate(-5deg) scale(1.1); }
+.submarine-twenty-four { top: 99%; right: 16%; transform: rotate(16deg) scale(0.95); }
+
+img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1,
+h2 {
+    color: #1e3a8a;
+}
+
+p, li {
+    line-height: 1.7;
+}
